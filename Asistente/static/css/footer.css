@@ -1,0 +1,35 @@
+footer{
+    box-shadow: 2px 2px 10px black;
+    font-size: 1.1em;
+    background: #353685;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+footer > p{
+    margin: 1.5em 0 .5em;
+    text-align: center;
+}
+
+footer > .info{
+    float: left;
+    margin: 0 5em .5em;
+}
+
+footer .dir{
+    padding: .5em;
+}
+
+footer > .follow{
+    text-align: center;
+    float: right;
+    margin: .7em 5em;
+}
+
+footer > .follow > .socials{
+    margin: 1em 0;
+}
+
+footer > .follow a{
+    margin: 1.5em;
+}

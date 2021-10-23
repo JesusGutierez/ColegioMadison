@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripción</title>
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/descripcion.css' %}">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img class="logo" src="{% static 'images/logo.svg' %}"></a>
+        <ul class="menu">
+            <li><a class="link" href="index.html">Inicio</a></li>
+            <li><a class="link" href="views/descripcion.html">Descripción</a></li>
+            <li><a class="link" href="views/login.html">Cursos</a></li>
+            <li><a class="link" href="views/contactanos.html">Contactanos</a></li>
+        </ul>
+        <div class="login">
+            <img src="{% static 'images/login.svg' %}">
+            <a class="link" href="login.html">Iniciar sesión</a>
+        </div>
+    </header>
+
+    <!--Descripcion-->
+    <div>
+        <div class="rectangulo">
+            <img src="{% static 'images/descripcion.svg' %}" />
+        </div>
+        <div class="contenido">
+            <h1>
+                Tecnología para el aprendizaje desde casa
+            </h1>
+        </div>
+        <div class="contenido-1">
+            <h4>
+                Son muchos los estudiantes que encuentran dificultades
+                con las matemáticas, y para resolver este problema,
+                la empresa Gg ha desarrollado una herramienta
+                digital llamada Samantha, que esta destinada a facilitar
+                enlaces a tutoriales selectos o foros de ayuda que
+                complementen el aprendizaje del curso de matematica
+                asi como tambien y poder incentivar a los estudiantes
+                a tener mas conocimiento con ayuda de
+                nuestra asistente virtual.
+            </h4>
+        </div>
+        <div class="contenido-2">
+            <h3>¿Quien es nuestra asistente virtual?</h3>
+        </div>
+        <div class="contenido-3">
+            <h4>
+                Nuestra asistente virtual Samantha esta basada en el
+                aprendizaje autonomo que permite darles las mejores
+                respuestas a las dudas que tengan nuestros estudiantes
+                asi como tambien recomendaciones de temas mas
+                avanzados para los autodidactas que quieran entender
+                mejor el area de matematicas.
+            </h4>
+        </div>
+    </div>
+</body>
+
+</html>

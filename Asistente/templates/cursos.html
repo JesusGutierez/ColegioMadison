@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/cursos.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="{% static 'images/logo.svg' %}"></a>
+        <ul class="menu">
+            <li><a class="link" href="">Inicio</a></li>
+            <li><a class="link" href="">Descripción</a></li>
+            <li><a class="link" href="">Cursos</a></li>
+            <li><a class="link" href="">Contactanos</a></li>
+        </ul>
+        <div class="login">
+            <img src="{% static 'images/login.svg' %}">
+            <a class="link" href="login.html">Iniciar sesión</a>
+        </div>
+    </header>
+
+    <div class="cursos">
+        <h1>Nuestros Cursos</h1>
+        <div class="info_curso">
+            <img src="{% static 'images/cursos.svg' %}" alt="#">
+            <div class="detalle_curso">
+                <div class="curso aritmetica" id="Aritmética">
+                    <h3>Aritmética</h3>
+                    <p>La aritmética es la rama de las matemáticas que estudia los números y las operaciones básicas que
+                        se
+                        pueden efectuar entre ellos.</p>
+                    <button>Ver curso completo</button>
+                </div>
+                <div class="curso algebra" id="Álgebra">
+                    <h3>Álgebra</h3>
+                    <p>El álgebra es una rama de las matemáticas que utiliza no solo números y signos, sino también
+                        letras
+                        para resolver distintas operaciones.</p>
+                    <button>Ver curso completo</button>
+                </div>
+                <div class="curso geometria" id="Geometría">
+                    <h3>Geometría</h3>
+                    <p>La geometría es una parte de la matemática que se encarga de estudiar las propiedades y las
+                        medidas
+                        de una figura en un plano o en un espacio.</p>
+                    <button>Ver curso completo</button>
+                </div>
+                <div class="curso trigonometria" id="Trigonometría">
+                    <h3>Trigonometría</h3>
+                    <p>La trigonometría es la subdivisión de las matemáticas que se encarga de calcular todos los
+                        elementos
+                        de los triángulos.</p>
+                    <button>Ver curso completo</button>
+                </div>
+                <div class="curso rm" id="Raz. Matemático">
+                    <h3>Razonamiento matemático</h3>
+                    <p>El razonamiento matemático es una habilidad, con la cual podemos relacionar números, comprender
+                        ecuaciones básicas, símbolos.</p>
+                    <button>Ver curso completo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

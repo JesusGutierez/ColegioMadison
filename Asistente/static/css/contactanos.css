@@ -1,0 +1,145 @@
+/*Contactanos*/
+.cuadro {
+    top: 50px;
+  }  
+header{
+    flex: 0 1 auto;
+}
+
+header > a {
+    align-self: center;
+    float: left;
+    margin: 1.5rem;
+}
+
+header > a > .logo{
+    width: 2.8em;
+    position: absolute;
+    left: 8%;
+    top: 3%;
+}
+
+header > ul{
+    margin: 1.9rem;
+    text-align: center;
+}
+
+header > ul > li{
+    display: inline;
+    margin: auto;
+}
+
+header > ul > li>a{
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 0.6em 1.6em;
+    color: #65617D;
+}
+
+header > ul > li>a:hover{
+    color: #FFFFFF;
+    background-color: #6C63FF;
+}
+.link{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.contenido,
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  color: #65617d;
+}
+
+.contenido{
+  text-align: center;
+  color: #353685;
+  top: 6%;
+  font-size: 21.5px;
+  left: 32%;
+}
+
+.text-1,
+.text-3,
+.text-4 {
+  left: 25.5%;
+}
+
+.text-1 {
+  top: 19.4%;
+}
+
+.text-2 {
+  top: 19.4%;
+  left: 55.4%;
+}
+
+.text-3 {
+  top: 31.5%;
+}
+
+.text-4 {
+  top: 43%;
+}
+
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4 {
+  position: absolute;
+  height: 6%;
+  border-radius: 12px;
+  border-color: #65617d;
+  border-style: solid;
+}
+
+.caja-1,
+.caja-2 {
+  width: 20%;
+  top: 27%;
+}
+
+.caja-1,
+.caja-3,
+.caja-4 {
+  left: 25%;
+}
+
+.caja-3,
+.caja-4 {
+  width: 50%;
+}
+
+.caja-2 {
+  left: 55%;
+}
+
+.caja-3 {
+  top: 39%;
+}
+
+.caja-4 {
+  top: 51%;
+  height: 30%;
+}
+
+/*Boton*/
+.boton {
+  position: absolute;
+  background-color: #353685;
+  box-shadow: 0 0 4px black;
+  padding: 8px 40px;
+  border-radius: 14px;
+  top: 87%;
+  left: 46%;
+}
+
+.letra {
+  font-family: "Poppins", sans-serif;
+  color: #fffcfc;
+  text-decoration: none;
+}

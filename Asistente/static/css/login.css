@@ -1,0 +1,79 @@
+header{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+header>button{
+    background-color: #66D06D;
+    color: white;
+    padding: 0 1.2em;
+    border: 0 none;
+    border-radius: 50px;
+    margin: 2em;
+}
+
+header>img{
+    margin: 2em;
+}
+
+.registro{
+    text-align: center;
+    color: #65617D;
+    justify-content: center;
+}
+
+.registro>h1{
+    font-size: 2.5em;
+    margin: 0 0 .5em 0;
+    color: #353685;
+}
+
+.formulario{
+    margin: auto;
+    padding: 2em 4em;
+    width: fit-content;
+    border: 1px solid #676767;
+    border-radius: 40px;
+    box-shadow: 0 0 4px black;
+    font-weight: 900;
+}
+
+.formulario>img{
+    margin: 0 .5em;
+}
+
+.formulario a{
+    color: #353685;
+    font-weight: 900;
+}
+
+.formulario>a.link{
+    display: block;
+}
+
+.formulario>.dato{
+    margin: 1em 0;
+}
+
+.formulario>.dato>p{
+    margin: 0 2.4em;
+    text-align: left;
+}
+
+.formulario input{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+    height: 2.3em;
+}
+
+.formulario>button {
+    background-color: #353685;
+    color: white;
+    padding: .6em .8em;
+    margin: 1.5em 0;
+    border: 0 none;
+    border-radius: 15px;
+    box-shadow: 0 0 4px black;
+}

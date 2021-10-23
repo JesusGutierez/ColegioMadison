@@ -1,0 +1,145 @@
+:root{
+    --aritmetica-color: #8E4178;
+    --algebra-color: #E56936;
+    --geometria-color: #01730D;
+    --trigonometria-color: #63599A;
+    --rm-color: #0D5896;
+}
+
+.cursos{
+    display: table-column;
+    text-align: center;
+    justify-self: center;
+    margin: 0 3em;
+}
+
+.cursos>h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: #353685;
+    margin: .2em;
+}
+
+.info_curso{
+    margin: 1em;
+    display: inline-flex;
+}
+
+.info_curso>img{
+    margin: 0 0em 0 1em;
+}
+
+.detalle_curso{
+    margin: 0 1em 0 0em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.curso{
+    border: .3em solid #eee;
+    border-radius: 30px;
+    text-align: center;
+    color: #676767;
+    font-weight: 600;
+    max-width: 18em;
+    height: fit-content;
+    margin: .3em;
+    align-self: center;
+    padding: .5em;
+}
+
+/* Aritmetica */
+.aritmetica{
+    border-color: var(--aritmetica-color);
+}
+
+.aritmetica>h3{
+    color: var(--aritmetica-color);
+}
+
+.aritmetica>button{
+    background-color: var(--aritmetica-color);
+    color: white;
+    padding: .5em 1.2em;
+    border: 0 none;
+    border-radius: 50px;
+    margin: .5em;
+    box-shadow: 0 0 4px black;
+}
+
+/* Algebra */
+.algebra{
+    border-color: var(--algebra-color);
+}
+
+.algebra>h3{
+    color: var(--algebra-color);
+}
+
+.algebra>button{
+    background-color: var(--algebra-color);
+    color: white;
+    padding: .5em 1.2em;
+    border: 0 none;
+    border-radius: 50px;
+    margin: .5em;
+    box-shadow: 0 0 4px black;
+}
+
+/* Geometria */
+.geometria{
+    border-color: var(--geometria-color);
+}
+
+.geometria>h3{
+    color: var(--geometria-color);
+}
+
+.geometria>button{
+    background-color: var(--geometria-color);
+    color: white;
+    padding: .5em 1.2em;
+    border: 0 none;
+    border-radius: 50px;
+    margin: .5em;
+    box-shadow: 0 0 4px black;
+}
+
+/* Trigonometria */
+.trigonometria{
+    border-color: var(--trigonometria-color);
+}
+
+.trigonometria>h3{
+    color: var(--trigonometria-color);
+}
+
+.trigonometria>button{
+    background-color: var(--trigonometria-color);
+    color: white;
+    padding: .5em 1.2em;
+    border: 0 none;
+    border-radius: 50px;
+    margin: .5em;
+    box-shadow: 0 0 4px black;
+}
+
+/* RM */
+.rm{
+    border-color: var(--rm-color);
+}
+
+.rm>h3{
+    color: var(--rm-color);
+}
+
+.rm>button{
+    background-color: var(--rm-color);
+    color: white;
+    padding: .5em 1.2em;
+    border: 0 none;
+    border-radius: 50px;
+    margin: .5em;
+    box-shadow: 0 0 4px black;
+}

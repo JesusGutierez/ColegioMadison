@@ -1,0 +1,51 @@
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+header > a{
+    margin: 2em;
+}
+
+header > .menu{
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header > .menu > li{
+    display: inline;
+    margin: 0 .5em;
+}
+
+header > .menu > li > a{
+    color: black;
+    padding: .8em 1.2em;
+    border-radius: 50px;
+}
+
+header > .menu > li > a:hover{
+    background-color: #66D06D;
+    color: white;
+}
+
+header > .login{
+    margin: 2em;
+    display: flex;
+    align-self: center;
+}
+
+header > .login > img, header > .login > a{
+    margin: 0 .4em;
+    align-self: center;
+}
+
+header > .login > a{
+    padding: .3em 1.2em;
+    border-radius: 50px;
+    color: white;
+    background: #F20000;
+}

@@ -1,0 +1,39 @@
+.intro{
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.intro > img{
+    justify-self: right;
+    margin: 0 5em;
+    align-self: center;
+}
+
+.intro > .presentacion{
+    align-self: center;
+}
+
+.intro p.title{
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 10em;
+    color: #353685;
+}
+
+.intro p.introduccion{
+    font-weight: 700;
+    color: #676767;
+    width: 40em;
+    margin: .5em 0;
+}
+
+.intro button{
+    color: white;
+    margin: 1em 0;
+    box-shadow: 0 0 4px black;
+    border-radius: 50px;
+    border: 0 transparent;
+    background: #353685;
+    padding: .3em 1.2em;
+}

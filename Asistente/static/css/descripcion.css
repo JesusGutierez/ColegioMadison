@@ -1,0 +1,48 @@
+/*Descripcion*/
+.texto,
+.contenido,
+.contenido-1,
+.contenido-2,
+.contenido-3,
+.obtener-codigo {
+  position: absolute;
+  left: 60.8%;
+}
+.contenido-1,
+.contenido-2,
+.contenido-3 {
+  color: #65617d;
+}
+.contenido{
+  text-align: right;
+  color: #353685;
+  top: 108%;
+  font-size: 21.5px;
+  left: 56.5%;
+}
+.contenido-1,
+.contenido-2,
+.contenido-3 {
+  text-align: center;
+}
+
+.rectangulo > img {
+  width: 62%;
+  padding: 3% 4.5%;
+  top: 10%;
+  left: 3%;
+}
+
+.contenido-1 {
+  top: 130%;
+}
+.contenido-2 {
+  font-size: 18px;
+  color: #66D06D;
+  top: 168%;
+  left: 63.4%;
+}
+.contenido-3 {
+  top: 175%;
+  left: 60.3%;
+}
